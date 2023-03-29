@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+import "../global.css"
+import Heros from "../components/Heros.svelte";
+import RoshanTimer from "../components/RoshanTimer.svelte";
+import StackTimer from "../components/StackTimer.svelte";
+import "@fontsource/allerta-stencil"
+</script>
+
+<Heros />
+<RoshanTimer />
+<StackTimer />
+
